@@ -1,0 +1,31 @@
+{
+  "name": "zhihu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack-dev-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lydiayayaya/zhihuDaily-React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lydiayayaya/zhihuDaily-React/issues"
+  },
+  "homepage": "https://github.com/lydiayayaya/zhihuDaily-React#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
