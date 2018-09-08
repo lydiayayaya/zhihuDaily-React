@@ -4,7 +4,7 @@ import ReactDOM from "react-dom"
 
 class App extends React.Component{
     render(){
-        return <div>Hellow Worssssld</div>
+        return <div>Hellow Wosrd</div>
     }
 }
 
