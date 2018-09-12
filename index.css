@@ -1,0 +1,261 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.app{
+    background: #f8f8f8;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.header{
+    margin:0 auto;
+    width:960px;
+    height:78px;
+    background-color:white;
+}
+img.logo{
+    margin-top: 13px;
+}
+.link{
+    float: right;
+    margin-top:25px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.download{
+    margin-right:20px;
+    background: #f0f9ff;
+    color: #008bed;
+    border-radius: 3px;
+    text-align:center;
+    display:inline-block;
+    width:120px;
+    height:24px;
+}
+/*banner*/
+.banner{
+    width:100%;
+    height:460px;
+    background-color: #008bed; 
+    overflow: hidden;
+}
+
+@keyframes bottomToTop{
+    from{
+        margin-top: 50px;
+    }
+    to{
+        margin-top: 12px;
+    }
+}
+.imageWrapper{
+    height: 100%;
+    width: 410px;
+    overflow: hidden;
+}
+.phoneAnimation{
+    animation: bottomToTop 1s ease both;
+}
+
+.wrap{
+    position:relative;
+    width:960px;
+    margin:0 auto; 
+    height: 464px;
+}
+@keyframes rightToLeft{
+    from{
+        right: -50px;
+    }
+    to{
+        right: 31px;
+    }
+}
+.right{
+    width:392px;
+    height:413px;
+    position: absolute;
+    bottom: 35px;
+    animation: rightToLeft 1s ease both;
+
+}
+.hh{
+    font-weight: bold;
+    color:white;
+    height: 50px;
+    line-height: 40px;
+    margin-top:80px;
+    width: 382px;
+}
+.info{
+    font-size: 16px;
+    color: #99d1f8;
+    line-height: 26px;
+    height: 100px;
+}
+.infopic {
+    float: left;
+    width: 145px;
+    height: 153px;
+    background: #fff;
+    border-radius: 3px;
+    margin-top:24px;
+}
+.infopic img{
+    margin: 9px 0 0 5px;
+}
+/*右边图片*/
+.rinfopic{
+    float: right;
+    width: 186px;
+    height: 153px;
+    border-radius: 3px;
+    margin-top:24px;
+}
+.rintop{
+    background: #fff;
+    border-radius: 3px;
+    vertical-align: top;
+    text-align: center;
+    width:186px;
+    height:64px;
+    line-height:64px;
+    padding-left:5px;
+}
+.rinbottom{
+    background: #fff;
+    border-radius: 3px;
+    vertical-align: top;
+    text-align: center;
+    width:186px;
+    height:64px;
+    line-height:64px;
+    margin-top:24px;
+}
+.logooo{
+    vertical-align:middle;
+}
+/*section*/
+.head{
+    width:960px;
+    height:100px;
+    margin:0 auto;
+}
+.headlf{
+    float:left;
+    font-size: 25px;
+    color: #333333;
+    line-height:100px;
+}
+.headrf{
+    float: right;
+    color: #ccc;
+    font-size: 25px;
+    line-height:100px;
+}
+/*artical*/
+.artical{
+    width:960px;
+    display:flex;
+    margin:0 auto;
+    flex-wrap:wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+.box{
+    width:300px;
+    height:373px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 2px;
+    justify-content:space-between;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.common{
+    width:260px;
+    height:260px;
+    object-fit: cover;
+}
+.title{
+    font-size: 16px;
+    color: #000;
+    line-height: 30px;
+    display: block;
+    background: #fff;
+}
+.more{
+    font-size: 20px;
+    color: #15527b;
+    background: #e8eef2;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    height: 62px;
+    line-height: 62px;
+    margin: 30px 0 0 0;
+    width:960px;
+    margin:0 auto;
+}
+/*footer*/
+.footer{
+    color: #666;
+    background: #e5e5e5;
+    height: 265px;
+    margin-top: 20px;
+}
+.fcontent{
+    width:960px;
+    margin:0 auto;
+}
+.infowrap{
+    padding-top: 30px;
+    margin:0 auto;
+    float:left;
+}
+.infowrap p{
+    font-size: 14px;
+    line-height: 26px;
+}
+.infowrap span{
+    font-size: 14px;
+    line-height: 26px;
+}
+.infowrap p + p {
+    margin-top: 12px;
+}
+.rbottom{
+    float: right;
+    margin-top:30px;
+    width: 135px;
+    height: 207px;
+}
+.imgbott{
+    border-radius: 3px;
+    background: white;
+    width:135px;
+    height:135px;
+}
+.logoo{
+    width:135px;
+    height:135px;
+}
+.tip{
+    padding-top: 13px;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-top:20px;
+}
+
