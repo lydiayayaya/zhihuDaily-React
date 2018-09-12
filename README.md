@@ -10,3 +10,7 @@
 
 ## 项目结构
 
+
+## 项目预览图
+
+![截图][https://github.com/lydiayayaya/zhihuDaily-React/blob/master/image.png]

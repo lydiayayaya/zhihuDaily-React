@@ -6,6 +6,7 @@ const request = require('superagent')
 
 app.get('/zhihulist',(req,res,next)=>{
     res.header('Access-Control-Allow-Origin', '*')
+    /*api*/
     request.get("http://news-at.zhihu.com/api/4/news/latest").set('Accept', 'application/json').then(resp=>{
         res.send(resp.body)
     })
