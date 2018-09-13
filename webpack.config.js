@@ -35,10 +35,8 @@ module.exports = {
                         localIdentName:'[local]__[hash:base64:5]'
                     }
                 }]
-                // loader: 'style-loader!css-loader?modules'
-                
+                // loader: 'style-loader!css-loader?modules'               
             }
-
         ]
     },
     plugins: [
