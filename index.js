@@ -57,7 +57,7 @@ class App extends React.Component{
         // })
         return <div style={{width:"100vw"}} className={styles.app}>
                     {/*header*/}
-                    <div style={{height:"78px",width:"100%",backgroundColor:"blsue"}}>
+                    <div style={{height:"78px",width:"100%",backgroundColor:"white"}}>
                         <div className={styles.header}>
                             <img className={styles.logo} src="http://daily.zhihu.com/img/new_home_v3/top_logo.png"/>
                             <div className={styles.link}>
@@ -99,11 +99,12 @@ class App extends React.Component{
                             <span className={styles.headrf}>最新内容</span>
                         </div>
                         <div className={styles.artical}>
+                        {/*item?*/}
                             {this.state.stories.map(item=>{
                                 return <div className={styles.box} key={item.title}>
                                 <a href={item.url} className={styles.wrapper}>
                                     <img className={styles.common} src={`http://localhost:9900/imageforward?url=${item.images[0]}`}/>
-                                    <span class="title">{item.title}</span>
+                                    <span className={styles.title}>{item.title}</span>
                                 </a>
                             </div>
                             })}
@@ -122,8 +123,7 @@ class App extends React.Component{
                                 </div>
                                 <div className={styles.rbottom}>
                                     <div className={styles.imgbott}>
-                                        <img className={styles.logoo} src="data:image/jpeg;base64,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
-                                        P2CGMHODbGTlzxkFDd0yioW7XYLi2WWNe3MaE6zNJrXzOY2u/nNcI6znOdM5zrb+c54zrOe98znPvv5z4AOtKAHTehCG/rQiE60ohfN6EYTJCAAOw=="/>
+                                        <img className={styles.logoo} src="http://daily.zhihu.com/img/new_home_v3/qr_top2.png"/>
                                     </div>
                                     <div className={styles.tip}>扫描下载客户端</div>
                                 </div>

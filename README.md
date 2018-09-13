@@ -14,4 +14,5 @@
 ## 项目预览图
 
 ![截图](https://github.com/lydiayayaya/zhihuDaily-React/blob/master/image.png)
-![截图](https://github.com/lydiayayaya/zhihuDaily-React/blob/master/img2.png)
+![截图](https://github.com/lydiayayaya/zhihuDaily-React/blob/master/image2.png)
+![截图](https://github.com/lydiayayaya/zhihuDaily-React/blob/master/image3.png)

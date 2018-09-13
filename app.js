@@ -17,9 +17,8 @@ app.get('/imageforward',(req,res,next)=>{
     request.get(req.query.url).pipe(res)
 })
 
-app.get('/hello',(req,res)=>{
+/*app.get('/hello',(req,res)=>{
     res.send("world")
-})
-
+})*/
 
 app.listen(9900)
