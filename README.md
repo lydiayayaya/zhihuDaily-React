@@ -10,7 +10,7 @@
 
 ## 项目结构
 1. 在webpack.config.js中配置babel、style-loader、css-loader  引入style后写样式
-2. xxx
+2. 222222222222444444444444444444444444
 
 
 ## 项目预览图
