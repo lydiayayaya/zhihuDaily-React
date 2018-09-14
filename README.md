@@ -10,7 +10,7 @@
 
 ## 项目结构
 1. 在webpack.config.js中配置babel、style-loader、css-loader  引入style后写样式
-2. 在app.js中加载express、superagent解决跨域  调用知乎api 再抓取
+2. 在app.js中加载express、superagent解决跨域  调用知乎api 
 
 
 ## 项目预览图
